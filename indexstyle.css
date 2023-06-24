@@ -1,0 +1,22 @@
+img[name="bigandy"] {
+    position: relative;
+    float: left;
+    max-width: 400px;
+    right: 40px;
+    top: 100px;
+}
+
+h1[name="title"] {
+    position: relative;
+    font-family: helvetica, sans-serif;
+    color: black;
+    top: 200px;
+}
+
+h2[name="title"] {
+    position: relative;
+    font-family: helvetica, sans-serif;
+    color: grey;
+    top: 225px;
+    word-spacing: 5px;
+}

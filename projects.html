@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <style>
-    h1 {text-align: center;}
-    h2 {text-align: center;}
-    h3 {text-decoration: underline;}
-  </style>
 <head>
+  <link rel="stylesheet" href="headerstyle.css">
+  <link rel="stylesheet" href="projectsstyle.css">
   <title>Andrew Lin</title>
-  <h1>Andrew Lin</h1> 
-  <h2>
-   <a href="./index.html">Home</a>
-   <a href="./aboutme.html">About Me</a>
-   <a href="./projects.html">Projects</a>
-  </h2>
 </head>
+<header>
+  <h2>
+   <a index="index" name="headerlink" href="/index.html">Home</a>
+   <a index="about me" name="headerlinkm" href="/aboutme.html">About Me</a>
+   <a index="Projects" name="headerlink" href="/projects.html">Projects</a>
+  </h2>
+</header>
 <body>
-  <h3>Games</h3>
-  <ul>
-    <li><a href="https://github.com/NilYdna04/2048"> 2048 in Terminal</a></li>
-    <li><a href="https://github.com/NilYdna04/DnDSim">DnD stat storer</a></li>
-  </ul>
+  <div id="main" name="main" class="main">
+    <br>
+    <h3>Small Projects</h3>
+    <div class="gallerychunk">
+      <a href="https://github.com/NilYdna04/DnDSim">
+        <img class="gallerypic" src="./resources/DnDSimLogo.png"></a>
+      <br><caption>DnDSim: a simple DnD tool.</caption>
+    </div>
+    <div class="gallerychunk">
+      <a href="https://github.com/NilYdna04/2048"><img class="gallerypic" src="./resources/2048Logo.png"></a>
+      <br><caption>2048 in C++.</caption>
+    </div>
+  </div>
 </body>

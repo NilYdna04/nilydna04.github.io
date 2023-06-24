@@ -1,0 +1,14 @@
+.main{
+    text-align: center;
+}
+
+.gallerypic {
+    border: black solid 1px;
+    width: 150px;
+    height: 150px;
+}
+
+.gallerychunk {
+    float: left;
+    margin-right: 10px;
+}

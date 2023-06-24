@@ -1,0 +1,29 @@
+
+div [name="about"] {
+    position: relative;
+    right: 30px;
+    top: 10px;
+    
+}
+
+a[name="resume"] {
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+}
+
+div[name="right"]{
+    position: relative;
+    left: 50px;
+    float: right;
+}
+
+
+img[name="andy"] {
+    border: 3px solid darkslategray;
+}
+
+div[name ="contact"] {
+    position: relative;
+    right: 30px;
+}
