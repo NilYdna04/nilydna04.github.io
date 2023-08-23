@@ -1,29 +1,37 @@
 
-div [name="about"] {
+.main {
     position: relative;
-    right: 30px;
-    top: 10px;
-    
+    top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float:left;
 }
 
-a[name="resume"] {
-    position: relative;
-    left: 100px;
+
+
+.about_title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.resume  {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
 }
 
-div[name="right"]{
-    position: relative;
-    left: 50px;
+.right{
+    text-align: center;
     float: right;
+    padding-left: 50px;
+    margin-right: 50px;
 }
 
-
-img[name="andy"] {
-    border: 3px solid darkslategray;
-}
-
-div[name ="contact"] {
-    position: relative;
-    right: 30px;
+img[name="Andy_Rocks"] {
+    max-width: 400px;
 }

@@ -5,25 +5,37 @@
   <link rel="stylesheet" href="projectsstyle.css">
   <title>Andrew Lin</title>
 </head>
-<header>
+<header> 
   <h2>
-   <a index="index" name="headerlink" href="/index.html">Home</a>
-   <a index="about me" name="headerlinkm" href="/aboutme.html">About Me</a>
-   <a index="Projects" name="headerlink" href="/projects.html">Projects</a>
+    <a class="header_link" href="./index.html">Home</a>
+    <a class="header_link" href="./aboutme.html">About Me</a>
+    <a class="header_link" href="./projects.html">Projects</a>
+    <a class="contact_link" href ="mailto:nilydna04@gmail.com">
+      <img class= "email_button" src="./resources/email.jpg"><img>
+    </a>
+    <a class="contact_link" href="https://www.linkedin.com/in/andrew-lin-75a66b280/">
+      <img class= "linked_in_button" src="./resources/linked_in.jpg"><img>
+    </a>
+    
   </h2>
 </header>
 <body>
-  <div id="main" name="main" class="main">
+  <div class="main">
+    <div class="project_line" name="small_projects">
+      <h3 class="projects_header">Small Projects</h3>
+      <div class="gallerychunk">
+        <a href="https://github.com/NilYdna04/DnDSim">
+          <img class="gallerypic" src="./resources/DnDSimLogo.png"></a>
+        <br><caption>DnDSim: a simple DnD tool.</caption>
+      </div>
+      <div class="gallerychunk">
+        <a href="https://github.com/NilYdna04/2048"><img class="gallerypic" src="./resources/2048Logo.png"></a>
+        <br><caption>2048 in C++.</caption>
+      </div>
+    </div>
     <br>
-    <h3>Small Projects</h3>
-    <div class="gallerychunk">
-      <a href="https://github.com/NilYdna04/DnDSim">
-        <img class="gallerypic" src="./resources/DnDSimLogo.png"></a>
-      <br><caption>DnDSim: a simple DnD tool.</caption>
-    </div>
-    <div class="gallerychunk">
-      <a href="https://github.com/NilYdna04/2048"><img class="gallerypic" src="./resources/2048Logo.png"></a>
-      <br><caption>2048 in C++.</caption>
-    </div>
+    <!-- <div class="project_line" name="small_projects">
+      <h3 class="projects_header">Projects with Chryselys</h3>
+    </div> -->
   </div>
 </body>

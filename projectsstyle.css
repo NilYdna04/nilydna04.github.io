@@ -1,5 +1,16 @@
 .main{
+    position: relative;
+    color: white;
+    top: 100px;
     text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+}
+
+.projects_header {
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .gallerypic {

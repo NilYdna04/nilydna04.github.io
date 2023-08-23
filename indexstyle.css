@@ -1,22 +1,30 @@
-img[name="bigandy"] {
+
+.index_picture {
     position: relative;
-    float: left;
-    max-width: 400px;
-    right: 40px;
+    float: right;
+    max-width: 500px;
+    right: 100px;
     top: 100px;
+
 }
 
-h1[name="title"] {
+.text{
     position: relative;
-    font-family: helvetica, sans-serif;
-    color: black;
-    top: 200px;
+    color: white;
+    top: 100px;
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
 }
 
-h2[name="title"] {
-    position: relative;
-    font-family: helvetica, sans-serif;
-    color: grey;
-    top: 225px;
-    word-spacing: 5px;
+.name {
+    text-align: left;
+    font-size: 120px;
+    font-weight: bold;
 }
+
+.description {
+    padding-top: 20px;
+    font-size: 30px; 
+}
+
