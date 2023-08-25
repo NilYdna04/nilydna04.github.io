@@ -16,7 +16,6 @@ header {
     padding-left: 10px;
 }
 
-
 @font-face {
     font-family: Coves;
     src: url("./resources/Coves_Light.otf");
@@ -39,14 +38,10 @@ header {
 
 .contact_link {
     float: right;
+    text-align: right;
     word-spacing: 2px;
     color: white;
     text-decoration: none;
     padding: 10px;
     margin-top: -15px;
-}
-
-div[name="main"] {
-    position: relative;
-    top: 100px;
 }

@@ -1,25 +1,43 @@
 .main{
+    clear: both;
     position: relative;
     color: white;
     top: 100px;
     text-align: center;
-    margin-left: 25px;
-    margin-right: 25px;
-    float: left;
+    /* border: thick double #32a1ce; */
+}
+
+.project_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects_header {
+    text-align: center;
     font-weight: bold;
     font-size: 50px;
 }
 
 .gallerypic {
-    border: black solid 1px;
+    width: 100px;
+    height: 100px;
+}
+
+.gallerychunk {
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.gallerybox {
+    border: thick double white;
+    padding: 10px;
     width: 150px;
     height: 150px;
 }
 
-.gallerychunk {
-    float: left;
-    margin-right: 10px;
+[name="document_comparison"] {
+    border: thick double greenyellow;
 }
