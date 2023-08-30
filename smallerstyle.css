@@ -1,0 +1,76 @@
+.main {
+    clear: both;
+    position: relative;
+    float:left;
+    font-family: Kayak;
+    font-size: 23px;
+    text-align:center;
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.icon_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 2px;
+    width: 300px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+.github_link {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.project_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects_header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.gallerypic {
+    width: 100px;
+    height: 100px;
+}
+
+.gallerychunk {
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.gallerybox {
+    text-align:center;
+    background-color: #383838;
+    border: thick double white;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}

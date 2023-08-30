@@ -1,0 +1,45 @@
+.main {
+    clear: both;
+    position: relative;
+    float:left;
+    font-family: Kayak;
+    font-size: 23px;
+    text-align:center;
+    width: 100%;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 2px;
+    background-color: #383838;
+    width: 100px;
+    height: 100px;
+}
+
+.icon_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid white 2px;
+    background-color: #383838;
+    width: 300px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+.github_link {
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}

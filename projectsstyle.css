@@ -2,7 +2,7 @@
     clear: both;
     position: relative;
     color: white;
-    top: 100px;
+    top: 10px;
     text-align: center;
     /* border: thick double #32a1ce; */
 }
@@ -14,30 +14,38 @@
     align-items: center;
 }
 
-.projects_header {
-    text-align: center;
-    font-weight: bold;
+.project_padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project_box {
+    width: 300px;
+    height: 500px;
+    border: 2px solid white;
+    background-color: #383838;
+}
+
+.project_image {
+    width:300px; 
+    height: 200px;
+    border-bottom: 2px solid white;
+}
+
+.project_description {
+    margin: 20px;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+}
+
+h1 {
     font-size: 50px;
 }
 
-.gallerypic {
-    width: 100px;
-    height: 100px;
-}
-
-.gallerychunk {
-    padding-left: 10px;
-    padding-right: 10px;
-   
-}
-
-.gallerybox {
-    border: thick double white;
-    padding: 10px;
-    width: 150px;
-    height: 150px;
-}
-
-[name="document_comparison"] {
-    border: thick double greenyellow;
-}
+/* .image_credit {
+    text-decoration: none;
+    color: white;
+} */

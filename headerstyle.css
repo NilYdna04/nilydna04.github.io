@@ -27,6 +27,10 @@ header {
     font-weight: bold;
 }
 
+@font-face {
+    font-family: Kayak;
+    src: url("./resources/Kayak_Sans_Light.otf");
+}
 
 .header_link {
     float: left;
