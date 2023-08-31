@@ -16,6 +16,10 @@ header {
     padding-left: 10px;
 }
 
+.header_icon {
+    width: 50px;
+}
+
 @font-face {
     font-family: Coves;
     src: url("./resources/Coves_Light.otf");
